@@ -5,7 +5,7 @@ echo "\e[96m________________\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m____________\
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[93m      \e[96m  TEMBAK VOCER AUTO CAIM VERSI 3.4.2020 \e[93m \n";
-echo "\e[93m   \e[96m  HILMAWAN ABDU RACHIM \e[93m \n";
+echo "\e[93m   \e[96m  OM JURKIH \e[93m \n";
 echo "\e[96m  ==============================================\n";
 echo "\e[96m  =\e[95m =>  1. VOUCHER GOFOOD EATLAH ✓ \e[96m=\n";
 echo "\e[96m  =\e[95m =>  2. VOUCHER GOFOOD 15K MINBEL 30RB  ✓\e[96m=\n";
@@ -19,16 +19,16 @@ if($pilihy == "y" || $pilihy == "sudah")
 echo "\e[96m▬▬▬▬▬BACA TULISAN DI BAWAH▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 	goto login;
 login:
-echo "\e[96m>!!!!Di bawah ini kalian ketik  >iwan<\n";
+echo "\e[96m>!!!!Di bawah ini kalian ketik  >jurkih<\n";
 $pass =  ( '║ User Login : ' );
 echo "\033[30;40m";
 $user = trim(fgets(STDIN));
 echo "\033[0m";
-if($user == "iwan")
+if($user == "jurkih")
 {
 	echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 	echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-	echo "\e[95m Ketik Namamu atau nama pacarmu awkwk: ";
+	echo "\e[95m Ketik Namamu atau nama pacarmu uhuuuyyy: ";
 	$input = trim(fgets(STDIN));
 	echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 		goto ulang;
